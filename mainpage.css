@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef9f3;
+    color: #333;
+}
+
+nav {
+    background-color: #2c6e49;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+nav p{
+    font-size: x-large;
+    display: flex;
+}
+
+nav a .logo {
+    display: flex;
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+section {
+    padding: 60px;
+    margin: 30px 0;
+}
+
+section#home, section#about, section#greenary, section#contact {
+    background-color: rgb(255, 255, 255);
+    border-radius: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    color: #2c6e49;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.gallery-item {
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Add green shadow to gallery images on hover */
+.gallery-item img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.gallery-item img:hover {
+    box-shadow: 0 4px 12px rgba(44, 110, 73, 0.5); /* Green shadow effect on hover */
+    border-radius: 50px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+}
+
+
+footer {
+    background-color: black; /* Set the footer background color to black */
+    color: white; /* Set the text color to white */
+    padding: 20px; /* Add some padding for a balanced layout */
+    text-align: center; /* Center all content in the footer */
+    font-size: 14px; /* Adjust the font size for better readability */
+    position: fixed; /* Keep the footer fixed at the bottom */
+    bottom: 0;
+    width: 100%; /* Ensure the footer spans the entire width of the page */
+}
+
+
