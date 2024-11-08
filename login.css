@@ -58,6 +58,7 @@ button:hover {
 }
 
 .back_video {
+    display: flex;
     position: fixed; /* Use fixed positioning to keep the video in the background */
     top: 0;
     left: 0;
