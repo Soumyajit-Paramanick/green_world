@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh '''
                 echo "Deploying project..."
-                mkdir -p /var/www/html
+                rm -rf /var/www/html/*
                 cp -r * /var/www/html/
                 '''
             }
